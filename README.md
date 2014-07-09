@@ -1,4 +1,4 @@
-Antiphuckator
+Review Assist
 ================
 
 A [phpackaton](http://phpers.github.io/phpackaton/) project.
