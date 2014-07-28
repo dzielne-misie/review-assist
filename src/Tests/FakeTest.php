@@ -13,9 +13,4 @@ class FakeTest extends PHPUnit_Framework_TestCase
     {
         $this->assertSame(1.1, 1.1);
     }
-    
-    public function testFail()
-    {
-        $this->assertSame(1.0, 1);
-    }
 }
