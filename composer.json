@@ -1,0 +1,40 @@
+{
+    "name": "dzielne-misie/review-assist",
+    "description": "The goal is to build a tool that will allow using build artifacts (phpcpd, phpunit, phpmdc, etc.) and commenting the code in a single place. To make code reviewing easier and more pleasant.",
+    "type": "library",
+    "homepage": "https://github.com/dzielne-misie/review-assist/",
+    "authors": [
+        {
+            "name": "Dominik Marczuk",
+            "role": "developer"
+        },
+        {
+            "name": "Maciej Iwanowski",
+            "role": "developer"
+        },
+        {
+            "name": "Piotr Radzymiński",
+            "role": "developer"
+        },
+        {
+            "name": "Sebastian Nowak",
+            "role": "developer"
+        },
+        {
+            "name": "Tomasz Tybulewicz",
+            "role": "developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/dzielne-misie/review-assist/issues"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DzielneMisie\\ReviewAssist\\": "src/"
+        }
+    }
+}
