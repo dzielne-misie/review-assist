@@ -1,5 +1,4 @@
-/app/components/
-/app/css/
-/app/js/
-/node_modules/
 /vendor/
+/nbproject
+/composer.lock
+/composer.phar
